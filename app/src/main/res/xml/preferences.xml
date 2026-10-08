@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <SwitchPreferenceCompat
+        android:id="@+id/switch_theme"
+        android:key="dark_mode"
+        android:title="Тёмная тема"
+        android:summary="Включить тёмную тему приложения"
+        android:defaultValue="false" />
+
+    <SwitchPreferenceCompat
+        android:id="@+id/switch_notifications"
+        android:key="notifications_enabled"
+        android:title="Уведомления о погоде"
+        android:summary="Получать ежедневные уведомления о погоде в Перми"
+        android:defaultValue="true" />
+
+    <Preference
+        android:id="@+id/pref_test_notification"
+        android:title="Тестовое уведомление"
+        android:summary="Отправить тестовое уведомление" />
+</PreferenceScreen>

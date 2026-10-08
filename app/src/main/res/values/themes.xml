@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="Base.Theme.GreenLine" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <!-- Основные цвета (обязательные для NavigationView) -->
+        <item name="colorPrimary">#4CAF50</item>
+        <item name="colorPrimaryDark">#2E7D32</item>
+        <item name="colorAccent">#FF9800</item>
+
+        <!-- Цвета для статус бара -->
+        <item name="android:statusBarColor">#4CAF50</item>
+        <item name="android:windowLightStatusBar">false</item>
+
+        <!-- Цвета для текста -->
+        <item name="android:textColorPrimary">#1A1A1A</item>
+        <item name="android:textColorSecondary">#666666</item>
+
+        <!-- Фон окна -->
+        <item name="android:windowBackground">@color/background</item>
+
+        <!-- Анимации -->
+        <item name="android:windowAnimationStyle">@style/Animation.Fade</item>
+    </style>
+
+    <style name="Theme.GreenLine" parent="Base.Theme.GreenLine" />
+
+    <style name="Animation.Fade" parent="android:Animation">
+        <item name="android:activityOpenEnterAnimation">@anim/fade_in</item>
+        <item name="android:activityOpenExitAnimation">@anim/fade_out</item>
+        <item name="android:activityCloseEnterAnimation">@anim/fade_in</item>
+        <item name="android:activityCloseExitAnimation">@anim/fade_out</item>
+    </style>
+
+</resources>

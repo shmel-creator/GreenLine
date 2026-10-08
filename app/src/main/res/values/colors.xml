@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Основные цвета -->
+    <color name="green_main">#4CAF50</color>
+    <color name="green">#4CAF50</color>
+    <color name="green_light">#8BC34A</color>
+    <color name="green_dark">#2E7D32</color>
+
+    <!-- Акцентные цвета -->
+    <color name="blue">#2196F3</color>
+    <color name="orange">#FF9800</color>
+    <color name="purple">#9C27B0</color>
+    <color name="cyan">#00BCD4</color>
+    <color name="red">#F44336</color>
+    <color name="rating">#FFC107</color>
+
+    <!-- Нейтральные цвета -->
+    <color name="white">#FFFFFF</color>
+    <color name="black">#1A1A1A</color>
+    <color name="gray">#666666</color>
+    <color name="gray_light">#999999</color>
+    <color name="gray_lighter">#E0E0E0</color>
+    <color name="background">#F5F5F5</color>
+
+    <!-- Цвета для меню -->
+    <color name="nav_color">#666666</color>
+    <color name="nav_selected">#2196F3</color>
+
+    <!-- добавить эти цвета для NavigationView -->
+    <color name="colorPrimary">#4CAF50</color>
+    <color name="colorPrimaryDark">#2E7D32</color>
+    <color name="colorAccent">#FF9800</color>
+</resources>

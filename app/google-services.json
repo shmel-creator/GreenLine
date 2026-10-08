@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "90494896119",
+    "project_id": "greenline-10aad",
+    "storage_bucket": "greenline-10aad.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:90494896119:android:40b3421dbf17bc8b55d0f2",
+        "android_client_info": {
+          "package_name": "com.example.greenline"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDT7bzlpTsaFEM6wCgQoWZ7lhSiws_jMyA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
